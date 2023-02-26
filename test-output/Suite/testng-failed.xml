@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="testCases.TC4_SignOut">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="end"/>
+          <include name="tearDown"/>
+          <include name="clickOnSignOut"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testCases.TC4_SignOut -->
+      <class name="testCases.TC3_PurchaseItem">
+        <methods>
+          <include name="purchaseItemFromList"/>
+          <include name="initialiseBrowser"/>
+          <include name="end"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testCases.TC3_PurchaseItem -->
+      <class name="testCases.TC2_SignIn">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="end"/>
+          <include name="tearDown"/>
+          <include name="doSignIn"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testCases.TC2_SignIn -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
